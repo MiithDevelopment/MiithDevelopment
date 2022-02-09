@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	background: #0aa0a0;
+	font-family: 'Josefin Sans', 'sans-serif';
+}
+#content {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	height: 100vh;
+}
+img { 
+  image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+  image-rendering: -moz-crisp-edges;          /* Firefox                        */
+  image-rendering: -o-crisp-edges;            /* Opera                          */
+  image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+  image-rendering: pixelated; /* Chrome */
+  image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+
+}
